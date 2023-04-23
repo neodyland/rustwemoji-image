@@ -3,6 +3,13 @@ name = "rustwemoji-image"
 version = "0.1.0"
 edition = "2021"
 include = ["src/**/*", "Cargo.toml", "Cargo.lock"]
+license = "MIT"
+description = "A library for rendering emojis from the Rustwemoji database to images"
+repository = "https://github.com/neodyland/rustwemoji-image"
+readme = "README.md"
+keywords = ["emoji", "rustwemoji", "image", "rendering","image"]
+categories = ["api-bindings", "image-processing"]
+homepage = "https://github.com/neodyland/rustwemoji-image"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
