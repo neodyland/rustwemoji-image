@@ -8,7 +8,7 @@ description = "A library for rendering emojis from the Rustwemoji database to im
 repository = "https://github.com/neodyland/rustwemoji-image"
 readme = "README.md"
 keywords = ["emoji", "rustwemoji", "image", "rendering","image"]
-categories = ["api-bindings", "image-processing"]
+categories = ["api-bindings"]
 homepage = "https://github.com/neodyland/rustwemoji-image"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
