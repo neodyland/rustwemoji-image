@@ -1,0 +1,24 @@
+[package]
+name = "rustwemoji-image"
+version = "0.1.0"
+edition = "2021"
+include = ["src/**/*", "Cargo.toml", "Cargo.lock"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.24.6"
+imageproc = "0.23.0"
+isahc = "1.7.2"
+rusttype = "0.9.3"
+rustwemoji-parser = "0.1.1"
+
+[features]
+default = ["discord"]
+async-std = ["rustwemoji-parser/async-std"]
+tokio = ["rustwemoji-parser/tokio"]
+discord = ["rustwemoji-parser/discord"]
+
+[dev-dependencies]
+async-std = "1.12.0"
+tokio = { version = "1.27.0", features = ["macros"] }
